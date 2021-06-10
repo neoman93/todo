@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 import AppHeader from "../app-header";
 import SearchPanel from "../search-panel";
@@ -28,4 +27,4 @@ const App = () => {
 	);
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
